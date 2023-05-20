@@ -1,0 +1,60 @@
+login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 10vw;
+}
+
+.logo-sound{
+    width: 40vw;
+    margin-top: 10vh;
+}
+
+.Spotify{
+    display:inline-flex;
+   
+}
+.Spotify p{
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.login-btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: var(--clr-primary-1);
+    color: var(--clr-primary-10);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    border-radius: 4rem;
+    transition: var(--transition);
+    cursor: pointer;
+    box-shadow: 0 0 1rem var(--clr-primary-1);
+}
+
+.btn:hover{
+    background-color: var(--clr-primary-10);
+    color: var(--clr-primary-1);
+    box-shadow: 0 0 1rem var(--clr-primary-10);
+}
+
+
+@media (max-width:500px) {
+    .logo-sound{
+        width: 80vw;
+        margin-top: 10vh;
+    }
+    .logo{
+        margin-top: 10vh;
+        width: 30vw;
+    }
+    .login-btn{
+        padding: 1rem 1rem;
+    }
+
+}
